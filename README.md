@@ -31,7 +31,8 @@ Um gerenciador de tarefas intuitivo e elegante com dark mode e sistema de priori
 ## 🎨 Estrutura do Código
 
 ```bash
-taskmaster/
+taskmaster-pro/
+├── imagens         # Imagens
 ├── index.html      # Estrutura principal
 ├── styles.css      # Estilos e animações
 └── script.js       # Lógica do aplicativo
