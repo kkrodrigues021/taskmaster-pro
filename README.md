@@ -30,6 +30,7 @@ Um gerenciador de tarefas intuitivo e elegante com dark mode e sistema de priori
 
 ## 🎨 Estrutura do Código
 
+```bash
 taskmaster/
 ├── index.html      # Estrutura principal
 ├── styles.css      # Estilos e animações
