@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskMaster Pro</title>
+    <link rel="icon" href="imagens/icon.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="app-header">
+            <h1><i class="fas fa-tasks"></i> TaskMaster Pro</h1>
+            <button id="themeToggle" aria-label="Alternar tema">
+                <i class="fas fa-sun"></i>
+                <i class="fas fa-moon" style="display:none"></i>
+            </button>
+        </header>
+
+        <div class="input-area">
+            <input type="text" id="taskInput" placeholder="Nova tarefa..." autocomplete="off">
+            <div class="task-options">
+                <select id="prioritySelect">
+                    <option value="low">⬇️ Baixa</option>
+                    <option value="medium" selected>🔵 Média</option>
+                    <option value="high">❗ Alta</option>
+                </select>
+                <input type="date" id="dueDate">
+                <button id="addTaskBtn"><i class="fas fa-plus"></i> Adicionar</button>
+            </div>
+        </div>
+
+        <div class="task-controls">
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">Todas</button>
+                <button class="filter-btn" data-filter="active">Ativas</button>
+                <button class="filter-btn" data-filter="completed">Concluídas</button>
+            </div>
+            <div class="stats">
+                <span id="totalCounter">0</span> tarefas | 
+                <span id="completedCounter">0</span> concluídas
+            </div>
+        </div>
+
+        <ul id="taskList">
+            <li class="empty-message">Nenhuma tarefa encontrada</li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
