@@ -35,6 +35,7 @@ taskmaster/
 ├── index.html      # Estrutura principal
 ├── styles.css      # Estilos e animações
 └── script.js       # Lógica do aplicativo
+```
 
 ## 📝 Licença
 Este projeto está licenciado sob a Licença MIT.
