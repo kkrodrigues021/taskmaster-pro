@@ -18,15 +18,9 @@ Um gerenciador de tarefas intuitivo e elegante com dark mode e sistema de priori
 2. Abra o arquivo `index.html` em qualquer navegador moderno
 3. Comece a organizar suas tarefas!
 
-## 🛠 Tecnologias Utilizadas
+## 🛠 Tecnologias
 
-| Tecnologia | Descrição |
-|------------|-----------|
-| HTML5 | Estrutura semântica do aplicativo |
-| CSS3 | Estilização com animações fluidas |
-| JavaScript | Lógica e interatividade |
-| LocalStorage | Persistência dos dados no navegador |
-| Font Awesome | Ícones profissionais |
+[![Tech Stack](https://skillicons.dev/icons?i=html,css,js)](https://skillicons.dev)
 
 ## 🎨 Estrutura do Código
 
